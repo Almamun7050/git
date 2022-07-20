@@ -1,0 +1,453 @@
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    
+    
+        overflow-x: hidden;
+      
+    
+}
+ /* ----------top banner start------------ */
+
+
+   .banner-headline{
+    color: white;
+    font-size: 40px;
+    margin-top: 30px;
+}
+   .banner-2nd-part{
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+   .banner-first-part{
+    margin-left: 100px;
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+   .top-banner{
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     background-color: #161616;
+     border-radius: 20px;
+     gap: 30px;
+}
+   .button-part a{
+    text-decoration: none;
+    color: white;
+}
+   .button-part{
+    font-size: medium;
+    width: 120px;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    background-color: #DD0000;
+}
+   .fa-arrow-right:before {
+    content: "\f061";
+    margin-left:15px;
+}
+  .bd-cricket{
+   width: 100%;
+   margin-top: 70px;
+   padding-top: 70px; 
+}
+   .bd-cricket img{
+    height: 100%;
+    
+    width: 100%;
+}
+   /* -----top banner hover----- */
+   .top-banner:hover{
+    background-color: hsl(39, 55%, 55%);
+    transform: scale(0.70);
+   }
+ /* -------------------top banner end----------------- */
+  /*--------------------- 
+            container section start---------------- */
+
+   .container-box-1 a{
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    width: auto;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    text-align: center;
+ }
+    .container-box-1{
+    
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    background-color: #161616;
+    padding: 20px;
+    margin-right: 30px;
+    gap: 20px; 
+    border-radius: 12px;  
+ }
+    .active{
+    background-color: red !important;
+ }
+   .container-box-2{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    
+ }
+   .single-player, .single-match{
+    height: 95%;
+    border: 1px solid rgb(243, 241, 241);
+    box-shadow: 4px 4px  ghostwhite;
+    border-radius: 10px;
+    padding: 15px;
+ }
+ .flags{
+    display: flex;
+ }
+ .match-name{
+    font-size: 22px;
+    text-align: center;
+   
+ }
+ .match-vanue p{
+    font-size: 17px;
+    text-align: center;
+    
+ }
+   .single-player img{
+    width: 100%;
+ }
+    .container{
+    margin: 100px 100px 0 100px;
+    display: grid;
+    grid-template-columns: 400px 1fr;
+       
+ }
+    .clock-icon{
+    display: flex;
+    justify-content:space-between;
+    margin-right: 5px;
+ }
+   .fa-rocketchat:before {
+    content: "\f3e8";
+    margin-right: 7px;
+}
+  /* ---anchor hover--- */
+   .anchor-change:hover{
+     
+     background-color: orange;
+}
+  
+
+  
+.view-button a{
+    
+    text-decoration: none;
+    margin-top: 60px;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+   background-color: red;
+}
+.view-button{
+    display: none;
+    
+}   
+
+ /*-------------------- 
+         container srction end--------------- */
+
+  /* -----------------footer section start----------- */
+  .footer-section{
+    padding-top: 70px;
+   
+  } 
+    .footer-headline h1{
+        text-align: center;
+        color: white;
+        margin-top: 50px;
+        padding-top: 90px;   
+    }
+    hr{
+        width: 70%;
+        color: #655f5f;
+    }
+    .footer-headline{
+        background-color: #161616;
+        
+    }
+    .footer-info{
+        font-size: 17px;
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+        color: #B9B9B9;
+       
+    }
+    .footer-icon{
+        display: flex;
+        font-size: 40px;
+        margin-top: 30px;
+        gap: 60px;
+        color: rgb(240, 240, 246);
+       justify-content: center;
+       padding-bottom: 90px;
+    }
+     /*-------------------- 
+          footer section end----------------- */
+
+
+     /*----------------- Media queries------------------- */
+
+     /*----- ---------
+    mobile devices
+    ----------------- */
+    @media only screen and (max-width:600px){
+        
+    .container{
+        margin: 30px ;
+        display: grid;
+        grid-template-columns:  1fr;
+        overflow: hidden;
+           
+     }
+     .container-box-2{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+        padding: 10px;
+        overflow: hidden;
+        
+     }
+     .top-banner{
+        
+        grid-template-columns: 1fr;
+       overflow: hidden; 
+        gap: 20px;
+   }
+   .banner-first-part{
+    margin-left: 0;
+    margin-bottom: 10px;
+    padding: 10px;
+    overflow: hidden;
+    
+}
+.footer-headline h1{
+    text-align: center;
+    overflow: hidden;
+       
+}
+.footer-info{
+    font-size: 17px;
+   display: grid;
+   overflow: hidden;
+    
+    justify-content: center;
+    gap: 10px;
+    color: #B9B9B9;
+    overflow: hidden;
+   
+}
+
+
+ }
+ /* --------mobile devices end------------ */
+  /*------------- 
+      Tablet Devices--------- */
+
+      @media only screen and (min-width:601px)and (max-width:768px){
+        
+        .top-banner{
+            
+            grid-template-columns: 1fr;
+            gap: 20px;
+            overflow: hidden;
+       }
+       .banner-first-part{
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        margin-bottom: 10px;
+        padding: 10px;
+        overflow: hidden;
+        
+    }
+    
+    
+    .container-box-1{
+    
+        display: inline-flex;
+        flex-direction: row;
+        gap: 10px; 
+        border-radius: 12px;
+        overflow: hidden;  
+     }
+     .container-box-1 > a{
+        width: 200px;
+        overflow: hidden;
+     }
+ 
+     .container-box-2{
+        display: grid;
+        grid-template-columns:50% repeat(1, 1fr);
+        gap: 20px;
+        padding: 20px;
+        overflow: hidden;
+        
+     }
+     .container{
+        margin: 30px ;
+        display: grid;
+        grid-template-columns:1fr;
+        overflow: hidden;
+           
+     }
+     .footer-headline h1{
+        text-align: center;
+        overflow: hidden;
+           
+    }
+    .footer-info{
+        font-size: 17px;
+       display: grid;
+        padding: 40px 40px;
+        justify-content: center;
+        gap: 10px;
+        color: #B9B9B9;
+        overflow: hidden;
+       
+    }
+    .view-button{
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+        overflow: hidden;
+    }   
+      }
+
+      /* -----------------Media Query for Upcoming match---------------- */
+
+      /* ----------
+        For Mobile---------- */
+        @media only screen and (max-width:600px){
+
+            .top-banner{
+                grid-template-columns: 1fr;
+               overflow: hidden; 
+                gap: 20px;
+           }
+           .banner-first-part{
+            margin-left: 0;
+            margin-bottom: 10px;
+            padding: 10px;
+            overflow: hidden;
+
+
+        }
+        .container{
+            margin: 30px ;
+            display: grid;
+            grid-template-columns:  1fr;
+            overflow: hidden;
+               
+         }
+         .container-box-2{
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 10px;
+            padding: 10px;
+            overflow: hidden;
+            
+         }
+         .footer-headline h1{
+            text-align: center;
+            overflow: hidden;
+               
+        }
+        .footer-info{
+            font-size: 17px;
+           display: grid;
+           overflow: hidden;
+            
+            justify-content: center;
+            gap: 10px;
+            color: #B9B9B9;
+            overflow: hidden;  
+        }
+        }
+         /* ------------for mobile end-------------- */
+          /*--------------- 
+            Media query for Tablet------------------ */
+
+            @media only screen and (min-width:601px)and (max-width:768px){
+        
+                .top-banner{
+                    
+                    grid-template-columns: 1fr;
+                    gap: 20px;
+                    overflow: hidden;
+               }
+               .banner-first-part{
+                display: grid;
+                grid-template-columns: 1fr;
+                justify-content: center;
+                margin-bottom: 10px;
+                padding: 10px;
+                overflow: hidden;
+                
+            }
+            .container-box-1{
+            
+                display: inline-flex;
+                flex-direction: row;
+                gap: 10px; 
+                border-radius: 12px;
+                overflow: hidden;  
+             }
+             .container-box-1 > a{
+                width: 200px;
+                overflow: hidden;
+             }
+         
+             .container-box-2{
+                display: grid;
+                grid-template-columns:50% repeat(1, 1fr);
+                gap: 20px;
+                padding: 20px;
+                overflow: hidden;
+                
+             }
+             .container{
+                margin: 30px ;
+                display: grid;
+                grid-template-columns:1fr;
+                overflow: hidden;
+                   
+             }
+             .footer-headline h1{
+                text-align: center;
+                overflow: hidden;
+                   
+            }
+            .footer-info{
+                font-size: 17px;
+               display: grid;
+                padding: 40px 40px;
+                justify-content: center;
+                gap: 10px;
+                color: #B9B9B9;
+                overflow: hidden;
+               
+            }
+            .view-button{
+                display: flex;
+                justify-content: center;
+                padding: 20px;
+                overflow: hidden;
+            }   
+              }
+                /* --------------Media query for tablet end----------- */

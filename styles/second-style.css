@@ -1,0 +1,124 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    
+}
+ /* ----------top banner start------------ */
+.banner-headline{
+    color: white;
+    font-size: 40px;
+  margin-top: 30px;
+}
+.banner-2nd-part{
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+.banner-first-part{
+    margin-left: 100px;
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+.top-banner{
+     display: flex;
+     background-color: #161616;
+     border-radius: 20px;
+     gap: 30px;
+}
+.button-part a{
+    text-decoration: none;
+    color: white;
+}
+.button-part{
+    font-size: medium;
+    width: 120px;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    background-color: #DD0000;
+}
+.fa-arrow-right:before {
+    content: "\f061";
+    margin-left:15px;
+}
+.bd-cricket{
+   width: 100%;
+  margin-top: 70px;
+  padding-top: 70px; 
+}
+.bd-cricket img{
+    width: 100%;
+}
+ /* ----------top banner end--------- */
+  /* container section start */
+ /* .container-box-1 a{
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    width: auto;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    text-align: center;
+ }
+ .container-box-1{
+    
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    background-color: #161616;
+   padding: 20px;
+   margin-right: 30px;
+   gap: 20px; 
+   border-radius: 12px;  
+ }
+ .active{
+    background-color: red !important;
+ } */
+
+ .single-match{
+    border: 1px solid gray;
+ }
+ 
+
+ 
+
+  /* -----------------footer section start----------- */
+  .footer-section{
+    padding-top: 70px;
+   
+  } 
+    .footer-headline h1{
+        text-align: center;
+        color: white;
+        margin-top: 50px;
+        padding-top: 90px;   
+    }
+    hr{
+        width: 70%;
+        color: #655f5f;
+    }
+    .footer-headline{
+        background-color: #161616;
+        
+    }
+    .footer-info{
+        font-size: 17px;
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+        color: #B9B9B9;
+       
+    }
+    .footer-icon{
+        display: flex;
+        font-size: 40px;
+        margin-top: 30px;
+        gap: 60px;
+        color: rgb(240, 240, 246);
+       justify-content: center;
+       padding-bottom: 90px;
+    }
+    
+
+
+ 
