@@ -205,7 +205,7 @@ body{
 
      /*----- ---------
     mobile devices
-    ----------------- */
+    --------------- */
     @media only screen and (max-width:600px){
         
     .container{
@@ -329,7 +329,7 @@ body{
     }   
       }
 
-      /* -----------------Media Query for Upcoming match---------------- */
+      /* --------------Media Query for Upcoming match------------- */
 
       /* ----------
         For Mobile---------- */
@@ -379,7 +379,7 @@ body{
             overflow: hidden;  
         }
         }
-         /* ------------for mobile end-------------- */
+         /* ----------for mobile end-------------- */
           /*--------------- 
             Media query for Tablet------------------ */
 
@@ -420,7 +420,7 @@ body{
                 padding: 20px;
                 overflow: hidden;
                 
-             }
+          }
              .container{
                 margin: 30px ;
                 display: grid;
@@ -428,7 +428,7 @@ body{
                 overflow: hidden;
                    
              }
-             .footer-headline h1{
+      .footer-headline h1{
                 text-align: center;
                 overflow: hidden;
                    
@@ -450,4 +450,4 @@ body{
                 overflow: hidden;
             }   
               }
-                /* --------------Media query for tablet end----------- */
+                /* -----------Media query for tablet end----------- */
